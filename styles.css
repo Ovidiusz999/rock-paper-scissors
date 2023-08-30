@@ -1,0 +1,18 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   background-color: cornflowerblue;
+}
+
+#mainDiv{
+   display: flex;
+}
+
+#mainDiv div{
+   border: inset;
+   border-color: coral;
+   border-width: 5px;
+}
