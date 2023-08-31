@@ -4,15 +4,29 @@
 }
 
 body{
-   background-color: cornflowerblue;
+   background-color: rgb(252, 229, 154);
+   text-align: center;
+   color: rgb(100, 0, 0);
+   font-weight: 900;
+   font-size: x-large;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #mainDiv{
    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
 }
 
 #mainDiv div{
    border: inset;
    border-color: coral;
    border-width: 5px;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+h1{
+ margin: 40px;
 }
